@@ -46,7 +46,7 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 // Inject the DB dependencies
-builder.Services.AddDbContext<NZWaksDbContext>(options =>
+builder.Services.AddDbContext<NZWalksDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("NZWalksConnectionString")));
 builder.Services.AddDbContext<NZWalksAuthDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("NZWalksAuthConnectionString")));
