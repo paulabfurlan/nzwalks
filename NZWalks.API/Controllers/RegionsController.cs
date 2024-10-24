@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using System.Text.Json;
+using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -18,27 +19,46 @@ namespace NZWalks.API.Controllers
     {
         private readonly IRegionRepository regionRepository;
         private readonly IMapper mapper;
+        private readonly ILogger<RegionsController> logger;
 
-        public RegionsController(IRegionRepository regionRepository, IMapper mapper)
+        public RegionsController(IRegionRepository regionRepository, IMapper mapper, ILogger<RegionsController> logger)
         {
             this.regionRepository = regionRepository;
             this.mapper = mapper;
+            this.logger = logger;
         }
 
         // GET ALL REGIONS
         // GET: https://localhost:portNumber/api/regions
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         public async Task<IActionResult> GetAll()
         {
-            // Get data from Databse - Domain Models
-            var regionsDomain = await regionRepository.GetAllAsync();
+            try
+            {
+                logger.LogInformation("GetAll Action Method was invoked");
 
-            // Map Domain Models to DTOs
-            var regionsDto = mapper.Map<List<RegionDto>>(regionsDomain);
+                logger.LogWarning("This is a warning log");
 
-            // Return DTOs
-            return Ok(regionsDto);
+                logger.LogError("This is a error log");
+
+                throw new Exception("This is a custom exception");
+
+                // Get data from Databse - Domain Models
+                var regionsDomain = await regionRepository.GetAllAsync();
+
+                // Map Domain Models to DTOs
+                var regionsDto = mapper.Map<List<RegionDto>>(regionsDomain);
+
+                // Return DTOs
+                logger.LogInformation($"Finished GetAllRegions request with data: {JsonSerializer.Serialize(regionsDomain)}");
+                return Ok(regionsDto);
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, ex.Message);
+                throw;
+            }
         }
 
         // GET SINGLE REGION (Get Region by ID)

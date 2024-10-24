@@ -150,3 +150,12 @@ D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\bin\Deb
 D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\obj\Debug\net8.0\NZWalks.API.Properties.Resources.resources
 D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\obj\Debug\net8.0\NZWalks.API.csproj.GenerateResource.cache
+D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.dll
+D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
