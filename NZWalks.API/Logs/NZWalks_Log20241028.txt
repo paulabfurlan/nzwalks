@@ -1,0 +1,50 @@
+2024-10-28 06:53:41.198 -03:00 [WRN] This is a warning log
+2024-10-28 06:53:41.241 -03:00 [ERR] This is a error log
+2024-10-28 06:53:41.398 -03:00 [ERR] a6317a72-b730-4a4c-bf78-f88fa341c99d : This is a custom exception
+System.Exception: This is a custom exception
+   at NZWalks.API.Controllers.RegionsController.GetAll() in D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\Controllers\RegionsController.cs:line 43
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NZWalks.API.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\Middlewares\ExceptionHandlerMiddleware.cs:line 20
+2024-10-28 06:54:43.817 -03:00 [WRN] This is a warning log
+2024-10-28 06:54:43.854 -03:00 [ERR] This is a error log
+2024-10-28 07:15:01.286 -03:00 [WRN] This is a warning log
+2024-10-28 07:15:01.355 -03:00 [ERR] This is a error log
+2024-10-28 07:28:53.249 -03:00 [WRN] This is a warning log
+2024-10-28 07:28:53.297 -03:00 [ERR] This is a error log
+2024-10-28 07:30:24.952 -03:00 [WRN] This is a warning log
+2024-10-28 07:30:25.012 -03:00 [ERR] This is a error log
+2024-10-28 07:42:25.410 -03:00 [WRN] This is a warning log
+2024-10-28 07:42:25.466 -03:00 [ERR] This is a error log
+2024-10-28 07:56:30.606 -03:00 [WRN] This is a warning log
+2024-10-28 07:56:30.651 -03:00 [ERR] This is a error log
+2024-10-28 07:58:07.772 -03:00 [WRN] This is a warning log
+2024-10-28 07:58:07.774 -03:00 [ERR] This is a error log
+2024-10-28 07:59:46.243 -03:00 [WRN] This is a warning log
+2024-10-28 07:59:46.245 -03:00 [ERR] This is a error log
+2024-10-28 08:05:51.369 -03:00 [WRN] This is a warning log
+2024-10-28 08:05:51.422 -03:00 [ERR] This is a error log
+2024-10-28 08:09:48.992 -03:00 [WRN] This is a warning log
+2024-10-28 08:09:49.044 -03:00 [ERR] This is a error log
+2024-10-28 08:16:25.810 -03:00 [WRN] This is a warning log
+2024-10-28 08:16:25.854 -03:00 [ERR] This is a error log
+2024-10-28 08:25:39.314 -03:00 [WRN] This is a warning log
+2024-10-28 08:25:39.362 -03:00 [ERR] This is a error log
+2024-10-28 08:27:19.805 -03:00 [WRN] This is a warning log
+2024-10-28 08:27:19.811 -03:00 [ERR] This is a error log
+2024-10-28 08:34:42.497 -03:00 [WRN] This is a warning log
+2024-10-28 08:34:42.557 -03:00 [ERR] This is a error log
+2024-10-28 08:34:55.802 -03:00 [WRN] This is a warning log
+2024-10-28 08:34:55.805 -03:00 [ERR] This is a error log
+2024-10-28 08:36:49.522 -03:00 [WRN] This is a warning log
+2024-10-28 08:36:49.524 -03:00 [ERR] This is a error log
