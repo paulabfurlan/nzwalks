@@ -50,7 +50,7 @@ namespace NZWalks.API.Controllers
                 pageNumber, pageSize);
 
             // Create an exception
-            throw new Exception("This is a new exception");
+            //throw new Exception("This is a new exception");
 
             // Map Domain Model to DTO
             var walksDto = mapper.Map<List<WalkDto>>(walksDomainModel);

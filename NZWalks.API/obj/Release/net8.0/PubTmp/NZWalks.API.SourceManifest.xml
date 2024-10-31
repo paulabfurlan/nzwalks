@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\obj\Release\net8.0\PubTmp\Out\" />
+  <dbfullsql path="D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\obj\Release\net8.0\PubTmp\EFSQLScripts\NZWalks.API.Data.NZWalksAuthDbContext.sql" />
+  <dbfullsql path="D:\OneDrive\Documents\Portifólio\Curso .NET\NZWalks\NZWalks\NZWalks.API\obj\Release\net8.0\PubTmp\EFSQLScripts\NZWalks.API.Data.NZWalksDbContext.sql" />
+</sitemanifest>

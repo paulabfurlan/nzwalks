@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="app-paula-nzwalks-eastus-dev-001" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\OneDrive\\Documents\\Portifólio\\Curso\ \.NET\\NZWalks\\NZWalks\\NZWalks\.API\\obj\\Release\\net8\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="NZWalks.API.Data.NZWalksAuthDbContext" description="" value="Data Source=sqlserver-nzwalks-eastus-dev-001.database.windows.net,1433;Initial Catalog=sqldb-nzwalks-eastus-dev-001;User ID=nzwalksadmin;Password=Buffy@656520" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\OneDrive\\Documents\\Portifólio\\Curso\ \.NET\\NZWalks\\NZWalks\\NZWalks\.API\\obj\\Release\\net8\.0\\PubTmp\\EFSQLScripts\\NZWalks\.API\.Data\.NZWalksAuthDbContext\.sql$" />
+  </parameter>
+  <parameter name="NZWalks.API.Data.NZWalksDbContext" description="" value="Data Source=sqlserver-nzwalks-eastus-dev-001.database.windows.net,1433;Initial Catalog=sqldb-nzwalks-eastus-dev-001;User ID=nzwalksadmin;Password=Buffy@656520" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\OneDrive\\Documents\\Portifólio\\Curso\ \.NET\\NZWalks\\NZWalks\\NZWalks\.API\\obj\\Release\\net8\.0\\PubTmp\\EFSQLScripts\\NZWalks\.API\.Data\.NZWalksDbContext\.sql$" />
+  </parameter>
+</parameters>

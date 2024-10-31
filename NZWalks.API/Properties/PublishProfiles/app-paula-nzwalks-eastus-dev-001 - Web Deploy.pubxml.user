@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>True|2024-10-31T23:13:21.5240836Z||;True|2024-10-31T20:11:12.9245241-03:00||;True|2024-10-31T19:46:20.4927225-03:00||;True|2024-10-31T19:39:09.4129369-03:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="NZWalks.API.Data.NZWalksAuthDbContext">
+      <Value>Data Source=sqlserver-nzwalks-eastus-dev-001.database.windows.net,1433%3bInitial Catalog=sqldb-nzwalks-eastus-dev-001%3bUser ID=nzwalksadmin%3bPassword=Buffy%40656520</Value>
+    </EFMigrations>
+    <EFMigrations Include="NZWalks.API.Data.NZWalksDbContext">
+      <Value>Data Source=sqlserver-nzwalks-eastus-dev-001.database.windows.net,1433%3bInitial Catalog=sqldb-nzwalks-eastus-dev-001%3bUser ID=nzwalksadmin%3bPassword=Buffy%40656520</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
